@@ -1,0 +1,114 @@
+    1  apt update
+    2  clear
+    3  apt install git
+    4  clear
+    5  mkdir git-merge
+    6  cd git-merge
+    7  git init
+    8  git config --global --edit
+    9  git config --global core.editor vim
+   10  git config --global --edit
+   11  git status
+   12  vim patna.txt
+   13  git add patna.txt
+   14  git commit -m "patna"
+   15  git remote add origin https://github.com/abhishekshc8/git-merge.git
+   16  git remote-v
+   17  git remote -v
+   18  git branch
+   19  git push -u origin master
+   20  git config --global --edit
+   21  git config --global core.editor nano
+   22  git config --global --edit
+   23  clear
+   24  git branch
+   25  vim index.html
+   26  git status
+   27  git branch
+   28  git add index.html
+   29  git status
+   30  git commit -m "index.html"
+   31  git push origin master
+   32  git status
+   33  clean
+   34  git checkout feature
+   35  git checkout -b feature
+   36  ls- la
+   37  git branch
+   38  clear
+   39  ls -la
+   40  vim patna.txt
+   41  git add patna.txt
+   42  git commit -m "khusi"
+   43  git diff
+   44  git branch
+   45  git diff master
+   46  git checkout master
+   47  git diff
+   48  cat patna.txt
+   49  git diff master
+   50  git diff feature
+   51  git checkout feature 
+   52  cat patna.txt
+   53  history
+   54  gir branch
+   55  git branch
+   56  git push -u origin feature
+   57  history
+   58  git branch
+   59  git branch -b feature 
+   60  git branch -d feature 
+   61  git branch
+   62  git branch master
+   63  git checkout master
+   64  git branch -d feature 
+   65  git branch
+   66  clear
+   67  git checkout -b quick-test
+   68  git branch
+   69  vim index.html
+   70  cat index.html
+   71  git status
+   72  git diff
+   73  git branch
+   74  git status
+   75  git commit -am "added new line"
+   76  clear
+   77  cat index.hrml
+   78  cat index.html
+   79  git checkout branch
+   80  git branch
+   81  git master
+   82  git checkout master
+   83  cat index.hrml
+   84  cat index.html
+   85  vim index.html
+   86  git status
+   87  git branch
+   88  git checkout quick-test
+   89  git branch
+   90  git commit -am "added there"
+   91  cat index.html
+   92  git checkout quick-test
+   93  git diff master
+   94  git merge master
+   95  vim index.html
+   96  git status
+   97  git merge master
+   98  git diff index.html
+   99  git status
+  100  git commit -am "updated with master"
+  101  git merge master
+  102  git status
+  103  git branch
+  104  cat index.html
+  105  git checkout master
+  106  cat status
+  107  git status
+  108  cat index.html
+  109  git merge quick-test 
+  110  cat index.html
+  111  git branch
+  112  git checkout quick-test 
+  113  git branch
+  114  history > git_history_merge_commands.txt
